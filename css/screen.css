@@ -1,0 +1,199 @@
+@media screen and (max-width: 960px) 
+
+html  {
+    font-family: 'Palanquin', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Sen', sans-serif;
+    font-size: 1em; /* 16px */
+    line-height: 1.5em; /* 24px */
+    justify-content: center;
+    background-color: #19d3df;
+    width: 100%;
+    height: 100%;
+    
+}
+
+img[src="images/squishmallow.png"]{
+    margin-left: 32%;  
+    margin-right: 27%;
+    max-width: 30%;  
+    padding: 30px;  
+}
+
+img[src="images/cowsquish.png"]{
+    max-width: 20%;  
+    padding: 10px;  
+    margin-top: -50px;
+    margin-left: 40%;  
+  }
+
+body{
+    background-color: #f04b98;
+}
+
+#logo {
+    background-color: #19d3df;
+    border: 8px white;
+    border-bottom-style: ridge;
+   }
+   
+h2  {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3em;
+    color: white;
+    text-align: center;    
+}
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5em;
+     line-height: 2em;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+label {
+    font-family: 'Sen', sans-serif;
+    font-size: 1.45em;
+    font-weight: 400;
+    color: white;
+    line-height: 1.75em;
+    margin-left: 37%;
+}
+
+input[type='text']{
+    font-family: 'Palanquin', sans-serif;
+    display: block;
+    text-align: center; 
+    padding: 10px;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+input[type='email']{
+    font-family: 'Palanquin', sans-serif;
+    display: block;
+    text-align: center; 
+    padding: 10px;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+input[type='date']{
+    font-family: 'Palanquin', sans-serif;
+    display: block; 
+    text-align: center; 
+    padding: 10px;
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#luck  {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 1em;
+    text-align: center;     
+    padding: 15px;
+    cursor: pointer
+    }
+
+#terms {
+    font-family: 'Sen', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    text-align: center;  
+    padding: 15px;
+}
+
+#footer {
+    border-color: none;
+    background-color: #19d3df;
+    background-size: 50px;
+    border: 5px white;
+    border-top-style: ridge;
+    font-family: 'Sen', sans-serif;
+    font-size: .80em;
+    font-weight: 700;
+    text-align: center;  
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    html  {
+    font-size: .85em; 
+    height: 50%;    
+}
+    
+    img[src="images/squishmallow.png"]{
+    max-width: 60%;  
+    padding: 50px;
+    margin-left: 80px;    
+}
+
+    img[src="images/cowsquish.png"]{
+    max-width: 55%; 
+    margin-left: 130px;
+    padding: 10px;  
+    margin-top: 40px;
+}
+
+    h3 {
+    padding-bottom: 10px;    
+}
+    
+    label {
+    font-size: 1.25em;
+    margin-left: 10%;
+}
+
+    input[type='text']{
+    display: block;
+    text-align: center; 
+    padding: 10px;
+    width: 50%;
+    margin-top: -25px;
+    margin-left: 38%;
+}
+  
+    input[type='email']{
+    display: block;
+    text-align: center; 
+    padding: 10px;
+    width: 50%;
+    margin-top: -25px;
+    margin-left: 38%;
+}
+
+    input[type='date']{
+    display: block;
+    text-align: center; 
+    padding: 10px;
+    width: 50%;
+    margin-top: -25px;
+    margin-left: 38%;
+}
+  
+    #terms {
+    font-size: .90em;
+    padding: 20px;
+}
+
+   #footer {
+    padding: 30px;
+}
+}
+
+
+
+  
+  
