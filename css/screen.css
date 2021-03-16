@@ -127,10 +127,10 @@ input[type='date']{
 }
 
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 500px) {
     html  {
-    font-size: .85em; 
-    height: 50%;    
+    font-size: .85em;   
 }
     
     img[src="images/squishmallow.png"]{
@@ -190,6 +190,22 @@ input[type='date']{
    #footer {
     padding: 30px;
 }
+}
+
+@media screen and (max-width: 780px) {
+    html  {
+    font-size: .85em;   
+}
+
+    img[src="images/squishmallow.png"]{
+    max-width: 50%;  
+    margin: center;
+    }
+    
+    img[src="images/cowsquish.png"]{
+    max-width: 40%; 
+    margin: center;
+    }      
 }
 
 
