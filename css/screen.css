@@ -114,7 +114,6 @@ input[type='date']{
 }
 
 #footer {
-    border-color: none;
     background-color: #19d3df;
     background-size: 50px;
     border: 5px white;
@@ -199,12 +198,10 @@ input[type='date']{
 
     img[src="images/squishmallow.png"]{
     max-width: 50%;  
-    margin: center;
     }
     
     img[src="images/cowsquish.png"]{
     max-width: 40%; 
-    margin: center;
     }      
 }
 
