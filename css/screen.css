@@ -131,9 +131,8 @@ input[type='date']{
     html  {
     font-size: .5em;  
 }
-    body{
+    body {
     width: 420px;
-    height: 800px;
     }
     
     img[src="images/squishmallow.png"]{
@@ -150,7 +149,7 @@ input[type='date']{
 }
 
     h2 {
-    font-size: 2em;
+    font-size: 3em;
     margin-left: -20px;  
     }
 
@@ -210,28 +209,25 @@ input[type='date']{
     html  {
     font-size: .85em;   
 }
-
     body{
     width: 820px;
-    height: 800px;
-}
+    }
 
     img[src="images/squishmallow.png"]{
     max-width: 50%;  
     margin-left: 180px;
-}
+    }
     
     img[src="images/cowsquish.png"]{
     max-width: 40%; 
-    margin-left: 230px;
-}      
+    margin-left: 220px;
+    }      
     
     #terms {
     font-size: 1em;
     text-height: 4em;
     text-align: center;
-    margin-left: 8px;
+    margin-left: -10px;
     padding: 20px;
-}  
-
+}
 }
