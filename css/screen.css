@@ -1,4 +1,4 @@
-
+    
 html  {
     font-family: 'Palanquin', sans-serif;
     font-family: 'Shadows Into Light', cursive;
@@ -124,12 +124,12 @@ input[type='date']{
     text-align: center;  
     padding: 20px;
 }
-
+}
 
 
 @media screen and (max-width: 400px) {
     html  {
-    font-size: .5em;  
+    font-size: .75em;  
 }
     body {
     width: 420px;
