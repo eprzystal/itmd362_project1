@@ -132,7 +132,7 @@ input[type='date']{
     font-size: .5em;  
 }
     body{
-    width: 400px;
+    width: 420px;
     }
     
     img[src="images/squishmallow.png"]{
@@ -215,18 +215,19 @@ input[type='date']{
 
     img[src="images/squishmallow.png"]{
     max-width: 50%;  
-    margin-left: 120px;
+    margin-left: 180px;
     }
     
     img[src="images/cowsquish.png"]{
     max-width: 40%; 
-    margin-left: 120px;
+    margin-left: 230px;
     }      
     
     #terms {
     font-size: 1em;
     text-height: 4em;
-    margin-left: -10px;
+    text-align: center;
+    margin-left: 8px;
     padding: 20px;
 }
 
