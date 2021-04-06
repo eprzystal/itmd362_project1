@@ -1,13 +1,7 @@
 // jQuery 3.x-style ready event and locally scoped $
-jQuery(function($) {
-  $('html').removeClass('nojs');
-  $('html').addClass('hasjs');
-});
 
-$("#luck").click(function(){
-    if($(this).hasClass('active')){
-        $(this).removeClass('active')
-    } else {
-        $(this).addClass('active')
-    }
-});
+document.getElementById("chance").addEventListener("return", myFunction);
+
+function myFunction() {
+  document.getElementById("chance").innerHTML = "WOW, WINNER!";
+}

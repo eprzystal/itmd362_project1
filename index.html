@@ -12,14 +12,15 @@
   <script src="js/site.js"></script>
 </head>
 <body>
-  <header id="logo">
-    <img src="images/squishmallow.png" alt="Squishmallows logo">
+  <header id="main-header" class="container">
+    <div id="header-container">
+    <img class="squish" src="images/squishmallow.png" alt="Squishmallows logo">
   </header>
-  <div>
+  <main id="body" class="container">
     <img src="images/cowsquish.png" alt="Cow Squishmallow">
     <h2>Join our mailing list today.</h2>
   <form method="get" action="#null" autocomplete="on">
-    <fieldset id="body">
+    <fieldset>
 	<h3>And you enter to win a year supply of Squishmallows &#42;</h3>
       <div id="wrap">
 	    <ul>
@@ -43,14 +44,13 @@
       </div>
     </fieldset>
   </form>
-  </div>
- 
   <div id="luck">
-    <input type="submit" class="interactive" value="Squish Your Luck">
+    <input type="button" class="interactive" value="Squish Your Luck" onclick="alert('Congradulations! Winner!')">		
   </div>
   <div id="terms">
     <p>&#42; If you are chosen you will receive a new Squishmallow on the 5th of every month for 12 consecutive months.  Styles and sizes may vary.</p>
   </div>  
+  </main>
   <footer id="footer">
     <p><strong>&#169; Squishmallows</strong> (this website is not legitamite and for school use only). </p>
   </footer>
